@@ -12,8 +12,17 @@ public class MainDrive {
 		cat1.name = "나옹이";
 		cat1.birthYear = 2018;
 
+		Cat cat2 = new Cat();
+		cat2.name = "나옹이";
+		cat2.birthYear = 2018;
+
 		dog1.eat();
 		cat1.eat();
+
+		System.out.println(dog1);
+		System.out.println(cat1);
+
+		System.out.println(cat1.equals(cat2));
 
 	}
 
