@@ -8,4 +8,12 @@ public class Dog extends Animal {
 		System.out.println("개가 사료를 먹습니다.");
 	}
 
+	@Override
+	public String toString() {
+
+		String message = this.name + " / " + this.birthYear;
+		return message;
+
+	}
+
 }
